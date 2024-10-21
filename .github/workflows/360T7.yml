@@ -10,7 +10,7 @@
 # See /LICENSE for more information.
 #
 
-name: OpenWrt Builder Nowifi
+name: Immortalwrt 21.02 360T7
 
 on:
   repository_dispatch:
