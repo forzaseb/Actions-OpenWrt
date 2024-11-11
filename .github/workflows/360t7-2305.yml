@@ -10,7 +10,7 @@
 # See /LICENSE for more information.
 #
 
-name: Immortalwrt 21.02 360T7
+name: Immortalwrt 23.05 360T7
 
 on:
   repository_dispatch:
