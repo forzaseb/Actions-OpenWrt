@@ -3,7 +3,7 @@ name: OpenWrt Builder Nowifi
 on:
   workflow_dispatch:
  # schedule:
- #   - cron: 0 19 * * *
+    - cron: 0 12 * * *
 
 env:
   REPO_URL: https://github.com/coolsnowwolf/lede
@@ -13,9 +13,9 @@ env:
   FEEDS_FILE: ipq6000-1806.default
   DIY_P1_SH: diy-part1.sh
   DIY_P2_SH: diy-part2.sh
-  UPLOAD_BIN_DIR: true
-  UPLOAD_FIRMWARE: false
-  UPLOAD_RELEASE: true
+  UPLOAD_BIN_DIR: false
+  FIRMWARE_RELEASE: true
+  FIRMWARE_TAG: Lede-NOWIFI
   TZ: Asia/Shanghai
 
 jobs:
